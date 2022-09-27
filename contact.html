@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>The Retro Studio - Contact</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="description" content="" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+		/>
+		<meta name="author" content="" />
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.jpg" />
+
+		<!-- Themefisher Icon font -->
+		<link rel="stylesheet" href="plugins/themefisher-font/style.css" />
+		<!-- bootstrap.min css -->
+		<link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" />
+
+		<!-- Animate css -->
+		<link rel="stylesheet" href="plugins/animate/animate.css" />
+		<!-- Slick Carousel -->
+		<link rel="stylesheet" href="plugins/slick/slick.css" />
+		<link rel="stylesheet" href="plugins/slick/slick-theme.css" />
+
+		<!-- Main Stylesheet -->
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body id="body">
+		<!-- Start Top Header Bar -->
+		<section class="top-header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-xs-12 col-sm-4">
+						<div class="slogan">
+							<span>Women Designed, Everyday Retro</span>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12 col-sm-4">
+						<!-- Site Logo -->
+						<div class="logo text-center">
+							<a href="index.html">
+								<span id="LOGO">
+									<img  alt="" src="images/Logo.png" style="width: 300px" />
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12 col-sm-4">
+						<ul class="top-menu text-right list-inline">
+							<!-- Search -->
+							<li class="dropdown search dropdown-slide">
+								<a
+									href="#!"
+									class="dropdown-toggle"
+									data-toggle="dropdown"
+									data-hover="dropdown"
+									><i class="tf-ion-ios-search-strong"></i> Search</a
+								>
+								<ul class="dropdown-menu search-dropdown">
+									<li>
+										<form action="post">
+											<input
+												type="search"
+												class="form-control"
+												placeholder="Search..."
+											/>
+										</form>
+									</li>
+								</ul>
+							</li>
+							<!-- / Search -->
+						</ul>
+						<!-- / .nav .navbar-nav .navbar-right -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- / End Top Header Bar -->
+
+		<!-- Main Menu Section -->
+		<section class="menu">
+			<nav class="navbar navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<h2 class="menu-title">Main Menu</h2>
+						<button
+							type="button"
+							class="navbar-toggle collapsed"
+							data-toggle="collapse"
+							data-target="#navbar"
+							aria-expanded="false"
+							aria-controls="navbar"
+						>
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<!-- / .navbar-header -->
+
+					<!-- Navbar Links -->
+					<div id="navbar" class="navbar-collapse collapse text-center">
+						<ul class="nav navbar-nav">
+							<!-- Home -->
+							<li class="dropdown">
+								<a href="index.html">Home</a>
+							</li>
+							<!-- / Home -->
+
+							<!-- Shop -->
+							<li class="dropdown">
+								<a href="shop.html">Shop</a>
+							</li>
+							<!-- / Shop -->
+							
+							<!-- Contact Us -->
+							<li class="dropdown">
+								<a href="contact.html">Contact Us</a>
+							</li>
+							<!-- / Contact Us -->
+						</ul>
+						<!-- / .nav .navbar-nav -->
+					</div>
+					<!--/.navbar-collapse -->
+				</div>
+				<!-- / .container -->
+			</nav>
+		</section>
+		<!-- / End Main Menu Section -->
+
+		<section class="page-wrapper">
+			<div class="contact-section">
+				<div class="container">
+					<div class="row">
+						<!-- Contact Form -->
+						<div class="contact-form col-md-6">
+							<form id="contact-form" method="post">
+								<div class="form-group">
+									<input
+										type="text"
+										placeholder="Your Name"
+										class="form-control"
+										name="name"
+										id="name"
+									/>
+								</div>
+
+								<div class="form-group">
+									<input
+										type="email"
+										placeholder="Your Email"
+										class="form-control"
+										name="email"
+										id="email"
+									/>
+								</div>
+
+								<div class="form-group">
+									<input
+										type="text"
+										placeholder="Subject"
+										class="form-control"
+										name="subject"
+										id="subject"
+									/>
+								</div>
+
+								<div class="form-group">
+									<textarea
+										rows="6"
+										placeholder="Message"
+										class="form-control"
+										name="message"
+										id="message"
+									></textarea>
+								</div>
+
+								<div id="mail-success" class="success">
+									Thank you. The Mailman is on His Way :)
+								</div>
+
+								<div id="mail-fail" class="error">
+									Sorry, don't know what happened. Try later :(
+								</div>
+
+								<div id="cf-submit">
+									<input
+										type="submit"
+										id="contact-submit"
+										class="btn btn-transparent"
+										value="Submit"
+									/>
+								</div>
+							</form>
+						</div>
+						<!-- ./End Contact Form -->
+
+						<!-- Contact Details -->
+						<div class="contact-details col-md-6">
+							<div class="google-map">
+								<div id="map"></div>
+							</div>
+							<ul class="contact-short-info">
+								<li>
+									<i class="tf-ion-ios-home"></i>
+									<span>200-889 W Pender St, Vancouver, BC V6C 1M2</span>
+								</li>
+								<li>
+									<i class="tf-ion-android-phone-portrait"></i>
+									<span>Phone: +1-604-899-4480</span>
+								</li>
+								<li>
+									<i class="tf-ion-android-mail"></i>
+									<span>Email: hello@example.com</span>
+								</li>
+							</ul>
+						</div>
+						<!-- / End Contact Details -->
+					</div>
+					<!-- end row -->
+				</div>
+				<!-- end container -->
+			</div>
+		</section>
+
+		<footer class="footer section text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="social-media">
+							<li>
+								<a href="#">
+									<i class="tf-ion-social-facebook"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="tf-ion-social-instagram"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="tf-ion-social-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="tf-ion-social-pinterest"></i>
+								</a>
+							</li>
+						</ul>
+						<ul class="footer-menu text-uppercase">
+							<li>
+								<a href="contact.html">CONTACT</a>
+							</li>
+							<li>
+								<a href="shop.html">SHOP</a>
+							</li>
+						</ul>
+						<p class="copyright-text">Copyright &copy;2021, The Retro Studio</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- 
+   Essential Scripts
+    =====================================-->
+
+		<!-- Main jQuery -->
+		<script src="plugins/jquery/dist/jquery.min.js"></script>
+
+		<!-- Bootstrap 3.1 -->
+		<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Bootstrap Touchpin -->
+		<script src="plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js"></script>
+
+		<!-- Count Down Js -->
+		<script src="plugins/syo-timer/build/jquery.syotimer.min.js"></script>
+
+		<!-- slick Carousel -->
+		<script src="plugins/slick/slick.min.js"></script>
+		<script src="plugins/slick/slick-animation.min.js"></script>
+
+		<!-- Google Mapl -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
+		<script src="plugins/google-map/gmap.js"></script>
+
+		<!-- Main Js File -->
+		<script src="js/script.js"></script>
+	</body>
+</html>
